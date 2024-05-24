@@ -1,0 +1,34 @@
+/* regole generali */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+}
+
+/* REGOLE HEADER */
+
+#fixed-bar {
+    background-color: rgb(43, 61, 79);
+}
+
+.bar-content {
+    /* DEBUG */
+    width: 100%;
+    min-height: 70px;
+    background-color: yellow;
+}
+
+.green-bg {
+    background-color: rgb(26, 189, 156);
+}
+
+#jumbo-content {
+    /* DEBUG */
+    width: 100%;
+    min-height: 300px;
+    background-color: blue;
+}
