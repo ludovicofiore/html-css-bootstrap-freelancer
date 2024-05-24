@@ -32,3 +32,16 @@ body {
     min-height: 300px;
     background-color: blue;
 }
+
+
+/* REGOLE MAIN */
+
+/* sezione portfolio */
+
+.card {
+     /* DEBUG */
+     width: 100%;
+     min-height: 150px;
+     background-color: brown;
+     border: 2px solid black;
+}
