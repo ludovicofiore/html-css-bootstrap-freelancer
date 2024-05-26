@@ -11,7 +11,19 @@ body {
 
 main section, footer section {
     padding: 50px 0;
+    color: white;
 }
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 
 /* REGOLE HEADER */
 
@@ -26,17 +38,52 @@ main section, footer section {
     background-color: yellow;
 }
 
+/* regole jumbotron */
 .green-bg {
     background-color: rgb(26, 189, 156);
 }
 
 #jumbo-content {
-    /* DEBUG */
-    width: 100%;
-    min-height: 300px;
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
 }
 
+#jumbo-image {
+    width: 30%;
+    min-width: 200px;
+}
+
+#jumbo-content h1 {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.star-spacer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.spacer-line {
+    height: 5px;
+    width: 15%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.fa-star {
+    scale: 2;
+    padding: 0 5%;
+}
+
+#jumbo-content h3 {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
 
 /* REGOLE MAIN */
 
@@ -52,13 +99,11 @@ main section, footer section {
 
 /* sezione about */
 
-#about-content {
-    /* DEBUG */
-    width: 100%;
-     min-height: 150px;
-     background-color: orange;
+.link-box {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
-
 
 /* sezione contact me */
 
