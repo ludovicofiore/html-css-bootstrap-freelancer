@@ -200,13 +200,27 @@ header .green-bg {
     background-color: rgb(58, 85, 110);
 }
 
-.footer-content {
-     /* DEBUG */
-     width: 100%;
-     min-height: 150px;
-     background-color: rgb(27, 183, 22);
+#light-blue-bg p .ms_a {
+    color: rgb(26, 189, 156);
+}
+
+#footer-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-left: 0;
+}
+
+.fa-brands {
+    font-size: 2rem;
 }
 
 #dark-blue-bg {
     background-color: rgb(43, 61, 79);
+}
+
+#dark-blue-bg {
+    font-size: 0.7rem;
+    text-align: center;
 }
