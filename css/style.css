@@ -29,18 +29,41 @@ a {
 
 #fixed-bar {
     background-color: rgb(43, 61, 79);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
 }
 
-.bar-content {
-    /* DEBUG */
-    width: 100%;
-    min-height: 70px;
-    background-color: yellow;
+.navbar a {
+    color: white;
+    font-weight: bold;
 }
+
+header .navbar-collapse {
+    flex-grow: 0;
+}
+
+header .navbar-toggler {
+    border-color: white;
+}
+
+header .navbar-brand:hover {
+    color: white;
+}
+
+header .nav-link:hover {
+    color: rgb(26, 189, 156);
+}
+
 
 /* regole jumbotron */
 .green-bg {
     background-color: rgb(26, 189, 156);
+}
+header .green-bg {
+    padding-top: 70px;
 }
 
 #jumbo-content {
